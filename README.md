@@ -17,6 +17,8 @@ Warning: PHP versions 7.2 and older are deprecated, and will cause problems, unr
 
 Change Log
 ----------
+* 4.0, release 2.1 2022.10.14
+  * Fixed CSS issue where the rules were unintentionally applied to the elements outside the scope in "special version".
 * 4.0, release 2 2022.10.14
   * Old way of clicking on basket icon is restored. New way of direct drag-and-drop is optional, and changeable in settings.
   * Added indication on basket icon when hovering and cancelling/submitting activities/sections
