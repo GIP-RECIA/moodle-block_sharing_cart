@@ -45,6 +45,17 @@
     margin: auto 5px auto 0;
 }
 
+.block_sharing_cart ul.tree.list {display: contents;}
+.block_sharing_cart ul.tree.list > li {display: inherit;}
+.block_sharing_cart ul.tree.list > li .toggle-wrapper {width: auto;}
+.block_sharing_cart ul.tree.list > li span.commands {margin-left: 5px;}
+.block_sharing_cart ul.tree.list > li ul.list {display: block;}
+.block_sharing_cart ul.tree.list > li ul.list > li {display: block;}
+.block_sharing_cart ul.tree.list > li ul.list .instancename {width: auto;}
+.block_sharing_cart ul.tree li > div .instancename {width: auto;}
+.block_sharing_cart ul.tree.list > li ul.list::before,
+.block_sharing_cart ul.tree.list > li ul.list li::before {content: none; outline: none;}
+
 .block_sharing_cart span.commands {
     margin-left: auto;
     display: flex;
